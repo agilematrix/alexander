@@ -36,7 +36,7 @@
             <configuration>
  
 <suiteXmlFiles>
-<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+<suiteXmlFile>src/main/resources/</suiteXmlFile>
 </suiteXmlFiles>
  
 <testFailureIgnore>true</testFailureIgnore>
