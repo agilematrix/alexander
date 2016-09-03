@@ -1,11 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.agilematrixzone.www</groupId>
-	<artifactId>com.agilematrixzone.www</artifactId>
-	<version>2.1</version>
-
-	<distributionManagement>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>AutoAMZ</groupId>
+  <artifactId>AutoAMZ</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <distributionManagement>
 		<repository>
 			<id>internal.repo</id>
 			<name>Temporary Staging Repository</name>
@@ -79,8 +77,18 @@
 			<version>6.8</version>
 			<!-- <scope>test</scope> -->
 		</dependency>
+		<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.7</version>
+</dependency>
+		<dependency>
+    <groupId>org.apache.jmeter</groupId>
+    <artifactId>ApacheJMeter_parent</artifactId>
+    <version>2.6</version>
+    <type>pom</type>
+</dependency>
+		
+		
 	</dependencies>
-
-
-
 </project>
